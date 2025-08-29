@@ -394,6 +394,12 @@ H1{
   color: white;
 }
 
+
+/*TRASFONDO*/
+.trasfondo  div :first-child{
+  text-align: center;
+}
+
 /* --- FOOTER --- */
 footer {
   background-color: #f3f0ea;
