@@ -1,5 +1,7 @@
 /* --- HEADER --- */
-
+*{
+  font-family: "Orbitron", sans-serif;
+}
 
 nav {
   position: fixed;
@@ -48,7 +50,6 @@ nav img {
 
 
 .izq ul li a {
-  font-family: "Times New Roman", Times, serif;
   color: black;
   text-decoration: none;
   font-size: 16px;
@@ -131,7 +132,6 @@ H1{
   text-align: center;
   font-size: xx-large;
   margin: 2%;
-  font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -155,7 +155,6 @@ H1{
 
 .principio h2,
 .principio p {
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
   font-size: large;
 }
@@ -236,7 +235,6 @@ H1{
 
 
 .opiniones div h5 {
-  font-family: "Times New Roman", Times, serif;
   font-weight: 100;
   font-size: large;
   margin: 1% 0 0.5% 0;
@@ -246,7 +244,6 @@ H1{
 
 
 .opiniones div h6 {
-  font-family: "Times New Roman", Times, serif;
   font-weight: 100;
   margin-top: 0.5%;
   font-size: large;
@@ -280,13 +277,11 @@ H1{
   width: 40%;
 }
 .PRODUCTOS div h2 {
-  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: x-large;
   margin: 1% 0 0.5% 0;
 }
 .PRODUCTOS div h6 {
-  font-family: "Times New Roman", Times, serif;
   font-weight: 100;
   margin-top: 0.5%;
   font-size: large;
@@ -366,7 +361,6 @@ H1{
   list-style: none;
   margin: 1% 0;
   font-size: large;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .suscripcionn div a {
@@ -381,7 +375,7 @@ H1{
 
 .boton {
   margin: 1% 0;
-  padding: 8%;
+  padding: 15%;
   background-color: #f3f0ea;
   border: none;
   border-radius: 5%;
@@ -394,8 +388,18 @@ H1{
   color: white;
 }
 
-
 /*TRASFONDO*/
+.trasfondo h1{  
+  margin-left: 10%;
+  width: 80%;
+  background-image: url('imagenes/FondoTras.png');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  color: #fff;  
+}
 .trasfondo  div :first-child{
   text-align: center;
 }
@@ -452,8 +456,6 @@ footer {
 
 
 .menu li a {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100;
   color: black;
   font-size: 16px;
@@ -465,7 +467,6 @@ footer {
 
 .tituloMenu {
   color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 18px;
   margin-bottom: 0.5%;
 }
@@ -491,7 +492,6 @@ footer {
 
 .tituloContacto {
   color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 18px;
   margin-bottom: 0.5%;
 }
@@ -511,9 +511,7 @@ footer {
 
 .redes h5 {
   color: black;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 16px;
+   font-size: 16px;
 }
 
 .redes a {
